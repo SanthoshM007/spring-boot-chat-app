@@ -1,43 +1,47 @@
-Project Overview:
+# Spring Boot Chat Application
 
-This project is a real-time chat application built using Spring Boot and WebSocket.
+A simple and interactive chat application built using **Spring Boot** that allows users to communicate in real-time. This project demonstrates the use of WebSocket, REST APIs, and Spring Boot framework to create a robust and scalable chat application.
 
-Features:
+---
 
-Real-time messaging
-User authentication
-Multiple chat rooms
-Typing indicators
-Message timestamps
-User presence status
-Technologies Used:
+## Features
 
-Java
-Spring Boot
-WebSocket
-Thymeleaf
-Bootstrap
-Maven
-Getting Started:
+- **Real-time Messaging**: Seamless communication between users via WebSocket.
+- **User-Friendly Interface**: Clean and intuitive UI for chatting.
+- **Scalability**: Built on a robust Spring Boot architecture.
+- **Secure Communication**: Ensures secure data transmission.
 
-Clone the repository:
+---
 
-bash
-Copy code
-git clone https://github.com/SanthoshM007/spring-boot-chat-app.git
-Navigate to the project directory:
+## Technologies Used
 
-bash
-Copy code
-cd spring-boot-chat-app
-Build the project using Maven:
+- **Backend**:
+  - Spring Boot
+  - WebSocket
+  - Java
 
-bash
-Copy code
-mvn clean install
-Run the application:
+- **Frontend**:
+  - HTML5
+  - CSS3
+  - JavaScript
 
-bash
-Copy code
-mvn spring-boot:run
-Access the application: Open your browser and navigate to http://localhost:8080 to start using the chat application.
+- **Database**:
+  - H2 (in-memory database for development)
+
+---
+
+## Prerequisites
+
+Ensure you have the following installed:
+
+- **Java** (JDK 11 or higher)
+- **Maven** (3.6 or higher)
+
+---
+
+## Getting Started
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/SanthoshM007/spring-boot-chat-app.git
+   cd spring-boot-chat-app
